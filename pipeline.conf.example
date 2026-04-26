@@ -1,0 +1,32 @@
+# pipeline.conf — Configuration for HW2 pipeline.sh
+#
+# Copy this file to pipeline.conf, then edit as needed.
+# setup.sh will do the copy automatically if pipeline.conf does not exist.
+#
+# Format:
+#   - Plain KEY=VALUE lines, no quotes around values
+#   - Lines starting with "#" are comments
+#   - Blank lines are ignored
+
+# ----------------------------------------------------------------------------
+# Source — directory containing CSV files to process
+# ----------------------------------------------------------------------------
+SOURCE_DIR=./data-source
+
+# ----------------------------------------------------------------------------
+# Filter criteria
+#   Keep only rows where:
+#     FILTER_COLUMN equals FILTER_VALUE,  AND
+#     DATE_COLUMN is on or after DATE_AFTER (YYYY-MM-DD).
+# ----------------------------------------------------------------------------
+FILTER_COLUMN=status
+FILTER_VALUE=completed
+DATE_COLUMN=date
+DATE_AFTER=2026-04-15
+
+# ----------------------------------------------------------------------------
+# Output — where to write the merged CSV and the summary report
+# ----------------------------------------------------------------------------
+OUTPUT_DIR=./output
+MERGED_FILE=merged.csv
+REPORT_FILE=summary.txt
