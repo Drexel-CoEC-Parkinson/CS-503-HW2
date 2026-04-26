@@ -1,6 +1,4 @@
-CS 503 — HW2: Shell Scripting Project
-
-**Drew Parkinson — Spring 2026**
+#**CS 503 — HW2: Shell Scripting Project
 
 ---
 
