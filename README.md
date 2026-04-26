@@ -1,13 +1,6 @@
-# CS 503 — HW2: Shell Scripting Project
+CS 503 — HW2: Shell Scripting Project
 
 **Drew Parkinson — Spring 2026**
-
-| | |
-|---|---|
-| **Out** | Wednesday April 15, 2026 (Week 3) |
-| **Due** | Sunday May 3, 2026 at 11:59 PM ET (end of Week 5) |
-| **Weight** | 15% of course grade |
-| **Late policy** | Per syllabus — Late Passes apply automatically |
 
 ---
 
