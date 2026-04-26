@@ -1,4 +1,4 @@
-#**CS 503 — HW2: Shell Scripting Project
+#CS 503 — HW2: Shell Scripting Project
 
 ---
 
